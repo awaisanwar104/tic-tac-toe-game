@@ -1,0 +1,77 @@
+.awaisop1 {
+  color: white;
+  font-size: 40px;
+}
+* {
+    padding: 0%;
+    margin: 0;
+    color: 0;
+}
+.hello {
+    text-align: center;
+    font-size: medium;
+    margin-top: 50px;
+    background-color: black;
+}
+.box1{
+    margin: 100px;
+    padding: 100px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+}
+ body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+  }
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 2em;
+  }
+  .cell:hover {
+    background-color: blue;
+  }
+  .hi {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .ops {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+  }
+#game {
+    text-align: center;
+    text-decoration: underline red;
+    text-shadow: 0ch;
+}
+body {
+    background-color: gold;
+}
+a {
+    white-space: 50px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 100px;
+}
